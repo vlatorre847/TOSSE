@@ -41,6 +41,6 @@ tosse3d(nelx,nely,nelz,volfrac,vc,mu)
 where ```nelz``` is the number of elements on the z-axis.
 
 ## Extensions
-This code can be considered as a basis for future more complex codes in topology optimization. Many of the extensions that can be found in literature like other boundary conditions, passive elements, displacement constraints and so on(see for example [1](https://link.springer.com/article/10.1007/s00158-010-0594-7),[2](https://link.springer.com/article/10.1007/s00158-010-0487-9),[3](https://link.springer.com/article/10.1007/s00158-014-1107-x)) can be applied with small modifications to this code as well.
+This code can be considered as a basis for future more complex codes in topology optimization. Many of the extensions that can be found in literature like other boundary conditions, passive elements, displacement constraints and so on (see for example [1](https://link.springer.com/article/10.1007/s00158-010-0594-7),[2](https://link.springer.com/article/10.1007/s00158-010-0487-9),[3](https://link.springer.com/article/10.1007/s00158-014-1107-x)) can be applied with small modifications to this code as well.
 ## License
 The software is distribuited under the GNU License. Check the License.md file for more information.
