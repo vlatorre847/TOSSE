@@ -45,7 +45,7 @@ while change >   1e-16 &&loop<200
     change = max(abs(xnew(:)-xPhys(:)));
     xPhys = reshape(xnew,[nely,nelx]);
     %% PRINT RESULTS
-    fprintf(' It.:%5i Obj.:%11.4f Vol.:%7.3f ch.:%7.3f fea.:%7.3f\n',loop,c,mean(xPhys(:)),change,sum(sum(xPhys))-vgam*nelx*nely);
+    fprintf(' It.:%5i Obj.:%11.4f Vol.:%7.3f ch.:%7.3f\n',loop,c,mean(xPhys(:)),change);
 end
 %% PLOT DENSITIES
 colormap(gray); imagesc(1-xPhys); caxis([0 1]); axis equal; axis off; drawnow;
