@@ -7,7 +7,7 @@ The code uses the classic 88 lines code known as TOP88 as basis in order to deve
 The algorithm shows an efficiency on averange superior to TOP88 and structures with almost none checkered board patterns.
 
 For more details on the theory and the numerical results you can check the paper available on:
-%%%%%%%%
+https://arxiv.org/abs/1902.00877
 
 ## Usage
 On this project three codes are available: 
